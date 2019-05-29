@@ -5,6 +5,7 @@ const company = 'ESX';
 StyleSheet.init();
 
 
+
 StyleSheet.create('body', `
       padding: 50px 0 0;
       color: #000;
@@ -22,7 +23,7 @@ StyleSheet.create('.entity', `
 
 
 function buildThank(template, ...values) {
-  return template.reduce((accumulator, part, i) => ` 
+  return template.reduce((accumulator, part, i) => `
                 ${accumulator}
                 <span class="entity">${values[i - 1].toUpperCase()}</span>
                 ${part}
