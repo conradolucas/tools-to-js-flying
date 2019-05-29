@@ -4,8 +4,6 @@ const company = 'ESX';
 
 StyleSheet.init();
 
-
-
 StyleSheet.create('body', `
       padding: 50px 0 0;
       color: #000;
